@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Sourav";
+            document.title = "Portfolio | Yuvaraj";
             $("#favicon").attr("href", "assets/images/photo.jpg");
         }
         else {
